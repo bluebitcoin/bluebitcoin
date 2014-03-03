@@ -477,12 +477,12 @@ Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="311"/>
-        <source>Tabs toolbar</source>
+        <source>Tabs toolblu</source>
         <translation>Bara de ferestre de lucru</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Actions toolbar</source>
+        <source>Actions toolblu</source>
         <translation>Bara de acţiuni</translation>
     </message>
     <message>
@@ -1940,8 +1940,8 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;M Ascunde în tray în loc de taskbar</translation>
+        <source>&amp;Minimize to the tray instead of the taskblu</source>
+        <translation>&amp;M Ascunde în tray în loc de taskblu</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="317"/>

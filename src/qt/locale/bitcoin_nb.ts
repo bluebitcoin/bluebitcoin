@@ -483,12 +483,12 @@ Er du sikker på at du vil kryptere lommeboken?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="311"/>
-        <source>Tabs toolbar</source>
+        <source>Tabs toolblu</source>
         <translation>Verktøylinje for faner</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Actions toolbar</source>
+        <source>Actions toolblu</source>
         <translation>Verktøylinje for handlinger</translation>
     </message>
     <message>
@@ -1951,7 +1951,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <source>&amp;Minimize to the tray instead of the taskblu</source>
         <translation>&amp;Minimer til systemkurv istedenfor oppgavelinjen</translation>
     </message>
     <message>

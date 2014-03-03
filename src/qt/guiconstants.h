@@ -7,7 +7,7 @@ static const int MODEL_UPDATE_DELAY = 500;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* BitcoinGUI -- Size of icons in status bar */
+/* BitcoinGUI -- Size of icons in status blu */
 static const int STATUSBAR_ICONSIZE = 16;
 
 /* Invalid field background style */
@@ -17,7 +17,7 @@ static const int STATUSBAR_ICONSIZE = 16;
 #define COLOR_UNCONFIRMED QColor(128, 128, 128)
 /* Transaction list -- negative amount */
 #define COLOR_NEGATIVE QColor(255, 0, 0)
-/* Transaction list -- bare address (without label) */
+/* Transaction list -- blue address (without label) */
 #define COLOR_BAREADDRESS QColor(140, 140, 140)
 
 /* Tooltips longer than this (in characters) are converted into rich text,

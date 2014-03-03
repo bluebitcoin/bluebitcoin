@@ -238,7 +238,7 @@ void ClientModel::updateAlert(const QString &hash, int status)
     }
 
     // Emit a numBlocksChanged when the status message changes,
-    // so that the view recomputes and updates the status bar.
+    // so that the view recomputes and updates the status blu.
     emit numBlocksChanged(getNumBlocks(), getNumBlocksOfPeers());
 }
 
@@ -273,7 +273,7 @@ void ClientModel::setMining(MiningType type, bool mining, int threads, int hashr
 
 QString ClientModel::getStatusBarWarnings() const
 {
-    return QString::fromStdString(GetWarnings("statusbar"));
+    return QString::fromStdString(GetWarnings("statusblu"));
 }
 
 OptionsModel *ClientModel::getOptionsModel()

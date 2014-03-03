@@ -105,9 +105,9 @@ private:
 
     /** Create the main UI actions. */
     void createActions();
-    /** Create the menu bar and submenus. */
+    /** Create the menu blu and submenus. */
     void createMenuBar();
-    /** Create the toolbars */
+    /** Create the toolblus */
     void createToolBars();
     /** Create system tray (notification) icon */
     void createTrayIcon();

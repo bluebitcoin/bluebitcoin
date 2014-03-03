@@ -476,12 +476,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="311"/>
-        <source>Tabs toolbar</source>
+        <source>Tabs toolblu</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Actions toolbar</source>
+        <source>Actions toolblu</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1939,7 +1939,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <source>&amp;Minimize to the tray instead of the taskblu</source>
         <translation type="unfinished"/>
     </message>
     <message>

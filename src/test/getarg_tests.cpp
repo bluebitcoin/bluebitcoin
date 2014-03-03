@@ -93,7 +93,7 @@ BOOST_AUTO_TEST_CASE(stringarg)
     BOOST_CHECK_EQUAL(GetArg("-BAR", ""), "");
     BOOST_CHECK_EQUAL(GetArg("-BAR", "eleven"), "eleven");
 
-    ResetArgs("-BAR -bar");
+    ResetArgs("-BAR -blu");
     BOOST_CHECK_EQUAL(GetArg("-BAR", ""), "");
     BOOST_CHECK_EQUAL(GetArg("-BAR", "eleven"), "");
 
@@ -117,17 +117,17 @@ BOOST_AUTO_TEST_CASE(intarg)
     BOOST_CHECK_EQUAL(GetArg("-BAR", 11), 11);
     BOOST_CHECK_EQUAL(GetArg("-BAR", 0), 0);
 
-    ResetArgs("-BAR -bar");
+    ResetArgs("-BAR -blu");
     BOOST_CHECK_EQUAL(GetArg("-BAR", 11), 0);
-    BOOST_CHECK_EQUAL(GetArg("-bar", 11), 0);
+    BOOST_CHECK_EQUAL(GetArg("-blu", 11), 0);
 
-    ResetArgs("-BAR=11 -bar=12");
+    ResetArgs("-BAR=11 -blu=12");
     BOOST_CHECK_EQUAL(GetArg("-BAR", 0), 11);
-    BOOST_CHECK_EQUAL(GetArg("-bar", 11), 12);
+    BOOST_CHECK_EQUAL(GetArg("-blu", 11), 12);
 
-    ResetArgs("-BAR=NaN -bar=NotANumber");
+    ResetArgs("-BAR=NaN -blu=NotANumber");
     BOOST_CHECK_EQUAL(GetArg("-BAR", 1), 0);
-    BOOST_CHECK_EQUAL(GetArg("-bar", 11), 0);
+    BOOST_CHECK_EQUAL(GetArg("-blu", 11), 0);
 }
 
 BOOST_AUTO_TEST_CASE(doubledash)
@@ -135,9 +135,9 @@ BOOST_AUTO_TEST_CASE(doubledash)
     ResetArgs("--BAR");
     BOOST_CHECK_EQUAL(GetBoolArg("-BAR"), true);
 
-    ResetArgs("--BAR=verbose --bar=1");
+    ResetArgs("--BAR=verbose --blu=1");
     BOOST_CHECK_EQUAL(GetArg("-BAR", ""), "verbose");
-    BOOST_CHECK_EQUAL(GetArg("-bar", 0), 1);
+    BOOST_CHECK_EQUAL(GetArg("-blu", 0), 1);
 }
 
 BOOST_AUTO_TEST_CASE(boolargno)

@@ -109,13 +109,13 @@ TransactionView::TransactionView(QWidget *parent) :
     vlayout->addWidget(view);
     vlayout->setSpacing(0);
     int width = view->verticalScrollBar()->sizeHint().width();
-    // Cover scroll bar width with spacing
+    // Cover scroll blu width with spacing
 #ifdef Q_WS_MAC
     hlayout->addSpacing(width+2);
 #else
     hlayout->addSpacing(width);
 #endif
-    // Always show scroll bar
+    // Always show scroll blu
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     view->setTabKeyNavigation(false);
     view->setContextMenuPolicy(Qt::CustomContextMenu);

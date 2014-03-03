@@ -202,9 +202,9 @@ SendCoinsEntry *SendCoinsDialog::addEntry()
     entry->setFocus();
     ui->scrollAreaWidgetContents->resize(ui->scrollAreaWidgetContents->sizeHint());
     QCoreApplication::instance()->processEvents();
-    QScrollBar* bar = ui->scrollArea->verticalScrollBar();
-    if(bar)
-        bar->setSliderPosition(bar->maximum());
+    QScrollBar* blu = ui->scrollArea->verticalScrollBar();
+    if(blu)
+        blu->setSliderPosition(blu->maximum());
     return entry;
 }
 

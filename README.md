@@ -1,3 +1,3 @@
-FooCoin (FOO)
+Bluebitcoin (BLU)
 
 Blah, blah, blah.

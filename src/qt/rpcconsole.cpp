@@ -210,7 +210,7 @@ void RPCConsole::clear()
                 "b { color: #006060; } "
                 );
 
-    message(CMD_REPLY, (tr("Welcome to the barcoin RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the bluebitcoin RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }
@@ -324,8 +324,8 @@ void RPCConsole::on_openDebugLogfileButton_clicked()
 
 void RPCConsole::scrollToEnd()
 {
-    QScrollBar *scrollbar = ui->messagesWidget->verticalScrollBar();
-    scrollbar->setValue(scrollbar->maximum());
+    QScrollBar *scrollblu = ui->messagesWidget->verticalScrollBar();
+    scrollblu->setValue(scrollblu->maximum());
 }
 
 void RPCConsole::on_showCLOptionsButton_clicked()
